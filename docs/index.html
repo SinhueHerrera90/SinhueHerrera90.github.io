@@ -2,14 +2,26 @@
 <html>
   <head>
     <style>
+      * {
+        border: thin red solid;
+      }
       body{
+        display:flex;
+        justify-content: center;
         padding-top:40px;
         padding-bottom:40px;
-        background-color: #fffffe;
+        background-color: #dcf6f2;
       }
 
       .name{
         color: #47b6b6;
+        display:flex;
+        justify-content: center;
+      }
+
+      .social-icons{
+        display:flex;
+        justify-content: center;
       }
 
       .social-icons a {
@@ -17,6 +29,10 @@
         text-decoration: none;
       }
 
+      .banner{
+        display:flex;
+        justify-content: center;
+      }
       .banner-image{
         width:128px;
       height:128px;
@@ -33,8 +49,25 @@
       border-style:inset
     }
 
-    .links{
-      background-color: #e53170;
+    .link{
+      background-color: #abf6f1;
+      display: flex;
+      align-items: center;
+    }
+
+    .link a{
+      color: #05645c;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .items{
+      display:flex;
+      flex-direction: column;
+      gap: 25px;
+      max-width: 600px;
+      flex-grow: 1;
     }
 
     </style>
@@ -44,9 +77,10 @@
   </head>
   <body>
 
-<div class="banner">
+    <div class="items">
+ <div class="banner">
   <img src="Thumbnails/SinhueHeadshot.JPG" alt="Sinhue headshot" class="banner-image">
-</div>
+ </div> 
 
 <div class="name">
   Sinhue Herrera
@@ -98,6 +132,7 @@ So You Want To Be More Flexible? Here's How To Get Started -Nicole Davis </a>
   <a target="_blank"
   href="https://www.leadwithlanguages.org/why-learn-languages/top-ten-reasons-to-learn-languages/">
 Ten Benefits of Learning Languages </a>
+  </div>
 </div>
 
 
