@@ -1,8 +1,9 @@
     
       body{
         background-color: #2b767b;
-opacity: 0.7;
-background-image: radial-gradient(circle at center center, #45f7f7, #2b767b), repeating-radial-gradient(circle at center center, #45f7f7, #45f7f7, 10px, transparent 20px, transparent 10px);
+        opacity: 0.7;
+        background-image: radial-gradient(circle at center center, #45f7f7, #2b767b), repeating-radial-gradient(circle at center center, #45f7f7, #45f7f7, 22px, transparent 44px, transparent 22px);
+        background-blend-mode: multiply;
 background-blend-mode: multiply;
         display:flex;
         justify-content: center;
@@ -12,11 +13,11 @@ background-blend-mode: multiply;
       }
 
       .name {
-        color: #47b6b6;
+        color: #76f6f6;
         display:flex;
         justify-content: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 25px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 35px;
       }
 
       .social-icons {
@@ -41,7 +42,7 @@ background-blend-mode: multiply;
       height:185px;
       object-fit: cover;
       border-radius: 95px;
-      border-style: outset;
+      border-style: double;
     }
 
     .thumbnail {
@@ -53,15 +54,16 @@ background-blend-mode: multiply;
     }
 
     .link {
-      background: linear-gradient(90deg, #1f4a5c, #1f6176, #197a8f, #0e93a6, #00adbc, #00c8d0, #12e3e2, #32fff1);
+      background: linear-gradient(90deg, #2a657e, #24718a, #1c7e94, #128b9d, #0697a5, #04a4ac, #12b1b1, #25beb4);
       display: flex;
       align-items: center;
       border-radius: 30px;
+      border-style: double ;
       padding: 5px;
     }
 
     .link a {
-      color: #bbf8f3;
+      color: #ffffff;
       text-decoration: none;
       text-align: center;
       flex-grow: 1;
