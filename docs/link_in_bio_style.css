@@ -36,20 +36,19 @@ background-blend-mode: multiply;
    
     .banner-image{
       margin: auto;
-      width:185px;
-      height: 185px;
+      width:200px;
+      height: 200px;
       object-fit: cover;
       border-radius: 100%;
-      position: relative;
-      display: block;
+     position: fixed;
     }
     .banner {
       margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-      width:185px;
-    height:185px;
+      width:200px;
+    height:200px;
       font-size:30px;
       color: #fff;
       background: none;
@@ -59,21 +58,6 @@ background-blend-mode: multiply;
       z-index: 0;
       transition: .3s;
   
-    }
-    .banner:before {
-      
-      position: center;
-      inset: -8px;
-      padding: 10px;
-      border-radius: 50%; 
-      background: conic-gradient(
-            #ff53bb ,
-            #0000 30deg 120deg,
-            #00f8d3 150deg 180deg,
-            #0000 210deg 300deg,
-            #ff53bb 330deg
-        );
-      
     }
   
     
