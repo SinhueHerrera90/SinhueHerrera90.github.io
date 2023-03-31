@@ -51,7 +51,7 @@ background-blend-mode: multiply;
         background:
           radial-gradient(200px at left  400px top 150px,#ff53bb 100%,#0000),
           radial-gradient(200px at right 400px bottom 150px,#00f8d3 100%,#0000);
-        filter: blur(1200px);
+        filter: blur(1000px);
         
       }
       
@@ -72,20 +72,9 @@ background-blend-mode: multiply;
           linear-gradient(#000 0 0) content-box,
           linear-gradient(#000 0 0);
         -webkit-mask-composite: xor;
-                mask-composite: intersect
+                mask-composite: intersect;
       }
-      button:after {
-        transition:.5s, 99999s 99999s transform;
-      }
-      button:hover {
-        box-shadow: 0 0 0 1px #666;
-      }
-      
-      button:hover:before,
-      button:hover:after {
-        transform: rotate(36000deg);
-        transition: .5s,600s linear transform;
-      }
+     
       button:before {
         background-color: #222;
           border: 2px solid #333;
