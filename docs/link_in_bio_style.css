@@ -39,6 +39,7 @@ background-blend-mode: multiply;
       height: 185px;
       object-fit: cover;
       border-radius: 100%;
+      position: absolute;
     }
     .banner {
       margin: auto;
@@ -58,8 +59,8 @@ background-blend-mode: multiply;
   
     }
     .banner:before {
-      content: "";
-      position: relative;
+      
+      position: center;
       inset: -8px;
       padding: 10px;
       border-radius: 50%; 
