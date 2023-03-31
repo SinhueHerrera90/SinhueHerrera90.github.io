@@ -35,11 +35,13 @@ background-blend-mode: multiply;
 
    
     .banner-image{
+      margin: auto;
       width:185px;
       height: 185px;
       object-fit: cover;
       border-radius: 100%;
-      position: absolute;
+      position: relative;
+      display: block;
     }
     .banner {
       margin: auto;
