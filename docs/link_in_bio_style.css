@@ -73,22 +73,9 @@ background-blend-mode: multiply;
             #0000 210deg 300deg,
             #ff53bb 330deg
         );
-      -webkit-mask:
-        linear-gradient(#000 0 0) content-box,
-        linear-gradient(#000 0 0);
-      -webkit-mask-composite: xor;
-              mask-composite: intersect
-    }
-    .banner:after {
-      content: "";
-      position: relative;
-      inset: -100px;
-      background:
-        radial-gradient(200px at left  400px top 150px,#ff53bb 100%,#0000),
-        radial-gradient(200px at right 400px bottom 150px,#00f8d3 100%,#0000);
-    
       
     }
+  
     
     .banner:before {
       content: "";
@@ -103,11 +90,7 @@ background-blend-mode: multiply;
             #0000 210deg 300deg,
             #ff53bb 330deg
         );
-      -webkit-mask:
-        linear-gradient(#000 0 0) content-box,
-        linear-gradient(#000 0 0);
-      -webkit-mask-composite: xor;
-              mask-composite: intersect
+      
     }
     @keyframes spin {
       0% {
