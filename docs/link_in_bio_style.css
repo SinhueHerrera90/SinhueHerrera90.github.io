@@ -40,7 +40,7 @@ background-blend-mode: multiply;
       height: 200px;
       object-fit: cover;
       border-radius: 100%;
-     position: relative;
+     position: absolute;
     }
     .banner {
       margin: auto;
