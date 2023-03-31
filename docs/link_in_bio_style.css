@@ -41,7 +41,7 @@ background-blend-mode: multiply;
       object-fit: cover;
       border-radius: 100%;
       position: relative;
-      display: block;
+      display: flex;
     }
     .banner {
       margin: auto;
